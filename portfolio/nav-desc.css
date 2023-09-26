@@ -1,0 +1,267 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+  }
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    padding: 10px;
+    display: flex;
+}
+.lista-mov{
+    display: none;
+    position: relative;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.logo h2{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.lista{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 700px;
+}
+.lista ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.lista li{
+    float: right;
+    display: inline;
+    margin-left: 10px; 
+}
+
+.lista a{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.lista-mov a{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+
+}
+.lista a:nth-child(6){
+    color: #464646;
+    font-weight: 700;
+    font-style: normal;
+}
+.descripcion{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+    height: 450px;
+    padding-left: 20px;
+    background-color: #F5F5F5;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+}
+.datos h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    color: #464646;
+    padding-top: 40px;
+   
+}
+.datos p{
+    padding-top: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #464646;
+}
+.links{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #464646;
+}
+.links img{
+    position: relative;
+    top: 4px;
+    width: 30%;
+}
+.flecha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 19px;
+}
+.flecha img{
+    width: 50%;
+    height: 50%;
+}
+.imagen{
+    right: 150px;
+    top: 30px;
+    width: 370px;
+    height: 370px;
+    box-sizing: border-box;
+}
+.imagen img{
+    box-sizing: border-box;
+    width: 368px;
+    height: 368px;
+    border-radius: 200px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+.lista{
+    display: none;
+}
+.lista-mov{
+    display: flex;
+    width: 90%;
+    justify-content: end;
+}
+.imagen{
+    right: 50px;   
+}
+.datos{
+    width: 70%;
+    gap: 10px;
+}
+.datos h1{
+    padding: 0px;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.datos p{
+    padding: 0px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.links{
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 0px;
+    display: flexbox;
+}
+.flecha{
+    width: 30%;
+    justify-content: space-around;
+}
+.flecha img{
+    height: 50%;
+}
+.flecha a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+}
+@media screen and (max-width: 767px){
+
+.lista{
+    display:none;
+}
+.lista-mov{
+    display: flex;
+    width: 90%;
+    justify-content: end;
+}
+.logo{
+    position: absolute;
+    left: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo h2{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+}
+.imagen{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    width: 270px;
+    height: 270px;
+    box-sizing: border-box;
+}
+.imagen img{
+    box-sizing: border-box;
+    width: 268px;
+    height: 268px;
+    border-radius: 200px;
+}
+.descripcion{
+    height: 780px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: #F5F5F5;
+}
+.datos{
+    padding-top: 200px;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+}
+}
+@media screen and (max-width: 500px){
+.logo{
+    display: none;
+}
+}

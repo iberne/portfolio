@@ -1,0 +1,63 @@
+.formacion{
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    background-color: #EAF2FD;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+.formacion h2{
+    text-align: center;
+    padding-bottom:15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-top: 2rem;
+}
+.cursos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 80px 15px;
+    padding-top: 70px;
+}
+.estudio{  
+    justify-content: center;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 40px;
+    Gap: 10px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.estudio ul{
+    list-style: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+    padding: 0px;
+}
+.estudio img{ 
+   width: 100%;
+}
+#alura{
+    width: 56%;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+.formacion{
+    width: Fill (768px);
+    height: Hug (291px);
+    padding: 32px;
+    gap: 32px;
+}
+.cursos{
+    width: Fill (704px);
+    height: Hug (169px);
+    gap: 16px;
+}
+}

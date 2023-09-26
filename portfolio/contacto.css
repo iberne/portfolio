@@ -1,0 +1,131 @@
+.contacto{
+    background-color: #EAF2FD;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    gap:1.5rem;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+    
+}
+#contacto h2{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem; 
+    padding-bottom: 0.5rem;
+}
+#contacto p{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.ingrese{
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    border-bottom: solid 2px #2A7AE4;
+    height: 58px;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.ingrese:focus{
+    outline: none;
+}
+.ingrese ::placeholder{
+    color: #A2A2A2;
+}
+.area{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    border:none;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    resize: none;
+}
+.area:focus{
+    outline: none;
+}
+.area ::placeholder{
+    color: #A2A2A2;
+}
+#mensaje{
+    height: 31px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #2A7AE4;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+#carta{
+    justify-content: center;
+    width: 35%;
+}
+.footer{
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    color:#464646;  
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}    
+@media screen and (max-width: 768px){
+
+#carta{
+    display: none;
+}
+#contacto{
+   width: 95%;
+}
+#mensaje{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #2A7AE4;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.footer{
+padding: 10px;
+margin: 0px;
+}
+}
+@media screen and (max-width: 500px){
+#carta{
+    display: none;
+}
+#contacto{
+    width: 90%;
+}
+}

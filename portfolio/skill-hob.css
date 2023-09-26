@@ -1,0 +1,59 @@
+.skills{
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    background-color: #F5F5F5;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.skills h2{
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+    padding-top: 30px;
+
+}
+.container img{
+    width: 24px;
+    height: 37px;
+    
+}
+.container ul{
+    margin: 100px 20px 0px;
+    list-style: none;
+    padding: 0;
+
+}
+.item{
+    background: #FFFFFF;
+    width: 176px;
+    height: 176px;
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.container{
+    gap: 16px;
+}
+.item{
+    padding: 16px;
+    gap: 8px;
+}
+
+}
